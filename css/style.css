@@ -1,0 +1,77 @@
+.mainbox{
+    background-color: aqua;
+    width: 100%;
+    margin: 0 auto;
+    height: 800px;
+
+}
+.menu{
+
+    outline: auto thick;
+}
+.leftside{
+    background-color: blueviolet;
+    width: 10%;
+    float: left;
+    height: 10%;
+}
+.main{
+    background-color: darkgoldenrod;
+    height: 85%;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.rightside{
+    background-color: brown;
+    width: 10%;
+    float: left;
+    height: 10%;
+}
+.footer{
+    background-color: cornflowerblue;
+    width: 60%;
+    float: left;
+    height: 10%;
+}
+.menu{
+    height: 5%;
+
+}
+.menu>ul>li{
+
+    left: 10%;
+    display: inline;
+    padding: 1%;
+    position: relative;
+    background-color: chartreuse;
+    font-family: Arial, serif;
+    font-size: 17px;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+#home>h1{
+    text-align: center;
+    font-size: 30px;
+}
+.left{
+    float: left;
+    width: 10%;
+    background-color: chartreuse;
+    height: 95%;
+}
+.right {
+    float: right;
+    width: 10%;
+    background-color: chartreuse;
+    margin-right: auto;
+    height: 95%;
+}
+.active{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: bold, serif;
+
+}
